@@ -1,3 +1,8 @@
+git init
+git add .
+git commit -m "primeiro commit"
+git remote add origin https://github.com/seunomeusuario/nomerepositorio.git
+git push -u origin master
 
 <!DOCTYPE html>
 <html>
