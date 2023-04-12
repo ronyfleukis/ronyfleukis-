@@ -1,3 +1,47 @@
-git init
-git add .
-git commit -m "Primeiro commit"
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="board">
+      <div class="card" data-framework="a">
+        <img class="front-face" src="img/a.png" alt="A">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+      <div class="card" data-framework="a">
+        <img class="front-face" src="img/a.png" alt="A">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+      <div class="card" data-framework="b">
+        <img class="front-face" src="img/b.png" alt="B">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+      <div class="card" data-framework="b">
+        <img class="front-face" src="img/b.png" alt="B">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+      <div class="card" data-framework="c">
+        <img class="front-face" src="img/c.png" alt="C">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+      <div class="card" data-framework="c">
+        <img class="front-face" src="img/c.png" alt="C">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+      <div class="card" data-framework="d">
+        <img class="front-face" src="img/d.png" alt="D">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+      <div class="card" data-framework="d">
+        <img class="front-face" src="img/d.png" alt="D">
+        <img class="back-face" src="img/back.png" alt="back">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
